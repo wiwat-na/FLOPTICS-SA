@@ -1,0 +1,12 @@
+d=2 exact common   Var/E=0.473  diff ratio=0.448
+d=2 exact gradient Var/E=0.473  diff ratio=0.448
+d=2 poisson_common    E D= 20.00  Var D=  9.40  Var/E=0.470  formula factor=0.473  Var(Da-Db)/(EDa+EDb)=0.439
+d=2 poisson_gradient  E D= 20.13  Var D=  9.34  Var/E=0.464  formula factor=0.473  Var(Da-Db)/(EDa+EDb)=0.449
+d=2 multinomial       E D= 20.11  Var D=  9.68  Var/E=0.481  formula factor=0.473  Var(Da-Db)/(EDa+EDb)=0.459
+d=2 negbin_vm2        E D= 20.01  Var D= 20.27  Var/E=1.013  formula factor=0.473  Var(Da-Db)/(EDa+EDb)=0.898
+d=3 exact common   Var/E=0.325  diff ratio=0.321
+d=3 exact gradient Var/E=0.325  diff ratio=0.321
+d=3 poisson_common    E D= 19.99  Var D=  6.47  Var/E=0.324  formula factor=0.325  Var(Da-Db)/(EDa+EDb)=0.329
+d=3 poisson_gradient  E D= 20.40  Var D=  6.62  Var/E=0.324  formula factor=0.325  Var(Da-Db)/(EDa+EDb)=0.313
+d=3 multinomial       E D= 20.06  Var D=  6.53  Var/E=0.326  formula factor=0.325  Var(Da-Db)/(EDa+EDb)=0.324
+d=3 negbin_vm2        E D= 19.97  Var D= 12.89  Var/E=0.646  formula factor=0.325  Var(Da-Db)/(EDa+EDb)=0.655
