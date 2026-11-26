@@ -1,0 +1,10 @@
+numpy>=2.0
+scipy>=1.13
+scikit-learn>=1.5
+pandas>=2.0
+matplotlib>=3.8
+numba>=0.60
+automato==0.1.1
+gudhi>=3.10
+flowio>=1.3
+pyreadr>=0.5
