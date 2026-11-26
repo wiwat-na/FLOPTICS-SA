@@ -24,6 +24,7 @@ Install (Python 3.11 or later): `pip install -r requirements.txt`. Benchmark dat
 | Equivariance check on locked data (fixed vs automatic m) | `python stats/check_equivariance_auto.py <clustering-data-v1>` |
 | Audit of Theorem 2 (Supplementary S4): locked data at s=0, s=1/(2k), random offsets; DLBCL | `python stats/audit_thm2.py <clustering-data-v1>`, `python stats/audit_thm2_random.py <clustering-data-v1>`, `python stats/audit_thm2_dlbcl.py <DLBCL fcs folder>` |
 | Misty-Mountain-like comparison (Supplementary S6) | `python stats/misty_like.py <clustering-data-v1>` |
+| Eq. (3) vs ToMATo on sqrt(D), whole runs (Supplementary S6) | `python stats/tomato_sandwich.py <clustering-data-v1>`, `python stats/tomato_nesting.py <clustering-data-v1>` |
 | Audit of Proposition 2 and the merge rule (Supplementary S5) | `python stats/audit_prop2_variance.py`, `python stats/audit_merge_rule.py`, `python stats/z_sensitivity.py <clustering-data-v1>` |
 | Audit of the automatic choice of m (Supplementary S7) | `python stats/audit_m_oracle.py <clustering-data-v1>`, `python stats/audit_m_synthetic.py`, `python stats/audit_m_noise_rescale.py` |
 | Figs. 1, 3-5 and S1 | `python make_paper_figures.py` (reads `results/`, writes `paper_figures/`) |
